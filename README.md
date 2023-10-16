@@ -6,6 +6,8 @@ To develop a convolutional autoencoder for image denoising application.
 
 ## Problem Statement and Dataset
 Using autoencoder, we are trying to remove the noise added in the encoder part and tent to get the output which should be same as the input with minimal loss. The dataset which is used is mnist dataset.
+
+
 ![image](https://github.com/gunasekhar159/convolutional-denoising-autoencoder/assets/95043391/108a2788-c4cc-48ab-b5eb-7cd1f30b1104)
 
 
@@ -30,7 +32,9 @@ Build the Neural Model using Convolutional, Pooling and Up Sampling layers. Make
 
 ### STEP 5:
 Plot the Output Images.
+
 ## PROGRAM
+```
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras import utils
@@ -112,7 +116,7 @@ for i in range(1, n + 1):
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
 plt.show()
-
+```
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
