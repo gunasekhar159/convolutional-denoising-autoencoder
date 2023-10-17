@@ -10,11 +10,9 @@ Using autoencoder, we are trying to remove the noise added in the encoder part a
 
 ![image](https://github.com/gunasekhar159/convolutional-denoising-autoencoder/assets/95043391/108a2788-c4cc-48ab-b5eb-7cd1f30b1104)
 
-
 ## Convolution Autoencoder Network Model
 
 ![image](https://github.com/gunasekhar159/convolutional-denoising-autoencoder/assets/95043391/85ab4438-b821-4e14-aec2-3b6464f42d6d)
-
 
 ## DESIGN STEPS
 
@@ -118,7 +116,6 @@ for i in range(1, n + 1):
 plt.show()
 ```
 ## OUTPUT
-
 ### Training Loss, Validation Loss Vs Iteration Plot
 
 ![image](https://github.com/gunasekhar159/convolutional-denoising-autoencoder/assets/95043391/10d6e87c-d128-4e1c-9c8e-8de758662a36)
